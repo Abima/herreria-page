@@ -148,26 +148,5 @@
 			</h5>
 		</div>
 	</footer>
-	<script>
-		$(document).ready(function(){
-			if($('html').hasClass('desktop')){
-				new WOW().init();
-			}
-		});
-	</script>
-	<script>
-	    wow = new WOW(
-	      {
-	        animateClass: 'animated',
-	        offset:       100
-	      }
-	    );
-	    wow.init();
-	    document.getElementById('moar').onclick = function() {
-	      var section = document.createElement('section');
-	      section.className = 'section--purple wow fadeInDown';
-	      this.parentNode.insertBefore(section, this);
-	    };
-	</script>
 </body>
 </html>
