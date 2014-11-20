@@ -133,7 +133,7 @@ footer address{
 	font-weight: bold;
 }
 footer address h5{
-	margin: 0 0 40px 0;
+	margin: 0 0 0px 0;
 }
 footer address span{
 	color: red;	
@@ -258,7 +258,33 @@ footer .google{
 	padding: 20px;
 	display: block;
 }
-@media screen and (min-width: 768px) and (max-width: 992px){
+/* Nosotros */
+.valores h3{
+	font-weight: bold; 
+	margin-top: 20px !important;
+}
+
+.columna-picture figure{
+	margin: 30px auto;
+	height: 390px;
+	width: 390px;
+}
+.columna-picture figure img{
+	height: 390px;
+	width: 390px;
+}
+@media screen and (min-width: 992px){
+	/* Nosotros */
+	.columna-picture figure{
+		height: 390px;
+		width: 390px;
+	}
+	.columna-picture figure img{
+		height: 390px;
+		width: 390px;
+	}
+}
+@media screen and (min-width: 768px) and (max-width: 991px){
 	
 	/* Catalogo */
 	.vista{
@@ -281,6 +307,15 @@ footer .google{
 		-ms-transform: translateY(180px);
 		-o-transform: translateY(180px);
 		transform: translateY(180px);
+	}
+	/* Nosotros */
+	.columna-picture figure{
+		height: 290px;
+		width: 290px;
+	}
+	.columna-picture figure img{
+		height: 290px;
+		width: 290px;
 	}
 }
 
@@ -330,7 +365,7 @@ footer .google{
 		-o-transition: background 0.3s, box-shadow 0.3s;
 		transition: background 0.3s, box-shadow 0.3s;
 	}
-	#menu #menu-ul li:nth-child(5){
+	#menu #menu-ul li:nth-child(6){
 		border-bottom: 0px solid red;
 	}
 	#menu #menu-ul li:hover{
@@ -383,5 +418,15 @@ footer .google{
 	}
 }
 
+@media screen and (max-width: 430px){
+	.columna-picture figure{
+		width: 290px;
+		height: 290px;
+	}
+	.columna-picture figure img{
+		width: 290px;
+		height: 290px;
+	}
+}
 
 
