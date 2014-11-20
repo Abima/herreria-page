@@ -230,7 +230,34 @@ footer .google{
 .copyright{
 	display: none;
 }
-
+/*Trabajo*/
+.item-trabajo {
+	
+	margin-top: 20px;
+}
+.item-trabajo figure {
+	width: 100%;
+	height: 220px;	
+}
+.item-trabajo figure img{
+	width: 360px;
+	height: 220px;	
+}
+.item-detalle {
+	width: 360px;
+	background: white;	
+}
+.con-detalle h2,.con-detalle  p{
+	padding: 7px;
+}
+.con-detalle h2{
+	margin: 0;
+	margin-top: 10px;
+}
+.more {
+	padding: 20px;
+	display: block;
+}
 @media screen and (min-width: 768px) and (max-width: 992px){
 	
 	/* Catalogo */
