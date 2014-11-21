@@ -386,6 +386,10 @@ footer .google{
 		width: 100%;
 	}
 
+	.contenedor-items{
+		margin-top: -50px;
+	}
+
 	footer address{
 		text-align: center;
 	}
