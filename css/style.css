@@ -284,6 +284,7 @@ footer .google{
 		width: 390px;
 	}
 }
+
 @media screen and (min-width: 768px) and (max-width: 991px){
 	
 	/* Catalogo */
@@ -318,7 +319,11 @@ footer .google{
 		width: 290px;
 	}
 }
-
+@media screen and (min-width: 768px) and (max-width: 865px){
+	#menu #menu-ul li{
+		padding: 0 1.3em;
+	}
+}
 @media screen and (max-width: 767px) {
 	.logo img{
 		height: 150px;
